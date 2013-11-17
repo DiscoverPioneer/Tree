@@ -15,7 +15,13 @@
 
 @implementation WatchDelegate
 
-
+-(id)init{
+    self = [super init];
+    if (self) {
+        [[PBPebbleCentral defaultCentral] setDelegate:self];
+    }
+    return self;
+}
 
 -(void)connectToWatch:(BOOL)connect{
     if (connect) {

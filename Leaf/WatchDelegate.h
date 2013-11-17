@@ -8,12 +8,8 @@
 
 #import <Foundation/Foundation.h>
 #import <PebbleKit/PebbleKit.h>
-@interface WatchDelegate : NSObject
-
-
+@interface WatchDelegate : NSObject <PBPebbleCentralDelegate>
 
 -(void)connectToWatch:(BOOL)connect;
-
-
 
 @end
