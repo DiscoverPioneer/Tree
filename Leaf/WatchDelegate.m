@@ -21,11 +21,17 @@
     self = [super init];
     if (self) {
         [[PBPebbleCentral defaultCentral] setDelegate:self];
+        uuid_t myAppUUIDbytes;
+        NSUUID *myAppUUID = [[NSUUID alloc] initWithUUIDString:@"226834ae-786e-4302-a52f-6e7efc9f990b"];
+        [myAppUUID getUUIDBytes:myAppUUIDbytes];
+        
+        [[PBPebbleCentral defaultCentral] setAppUUID:[NSData dataWithBytes:myAppUUIDbytes length:16]];
     }
     return self;
 }
 
 -(void)connectToWatch:(BOOL)connect{
+    
     if (connect) {
         //Connect
         connectedWatch = [[PBPebbleCentral defaultCentral] lastConnectedWatch];
