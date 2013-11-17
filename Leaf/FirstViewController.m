@@ -7,7 +7,7 @@
 //
 
 #import "FirstViewController.h"
-
+#import "EventsViewController.h"
 @interface FirstViewController (){
     
 }
@@ -57,5 +57,14 @@
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+- (IBAction)contactsAction:(id)sender {
+    EventsViewController  *EVC = [[EventsViewController alloc]initWithNibName:@"EventsViewController" bundle:nil];
+    EVC.modalTransitionStyle = UIModalTransitionStyleCoverVertical;
+    [self presentViewController:EVC animated:YES completion:nil];
+    
+}
+
+- (IBAction)settingsAction:(id)sender {
 }
 @end
