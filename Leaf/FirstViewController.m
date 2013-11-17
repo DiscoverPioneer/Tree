@@ -15,6 +15,7 @@
 @end
 
 @implementation FirstViewController
+@synthesize connectOutlet;
 
 - (id)initWithNibName:(NSString *)nibNameOrNil bundle:(NSBundle *)nibBundleOrNil
 {

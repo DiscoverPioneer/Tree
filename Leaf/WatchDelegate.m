@@ -65,6 +65,10 @@
         [connectedWatch appMessagesPushUpdate:[NSDictionary dictionaryWithObject:@"updated" forKey:key] onSent:^(PBWatch *watch, NSDictionary *update, NSError *error){
             if (!error) {
                 NSLog(@"sent message");
+                appDelegate= (AppDelegate *)[[UIApplication sharedApplication] delegate];
+                appDelegate.FVC.connected=YES;
+                
+                [appDelegate.FVC.connectOutlet setTitle:@"Disconnect" forState:UIControlStateNormal];
             }
             else{
                 NSLog(@"got error %@", error);
