@@ -8,7 +8,10 @@
 
 #import "FirstViewController.h"
 
-@interface FirstViewController ()
+@interface FirstViewController (){
+    BOOL connected;
+    
+}
 
 @end
 
@@ -27,16 +30,39 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    //Change
+    connected=NO;
 }
+
+
+
+
+- (IBAction)connectAction:(id)sender {
+    //Check if connected to Pebble
+    if(connected){
+        //Already connected, we need to disconect
+        
+        //Upon Success, Change the button title to "Connect"
+        [self.connectOutlet setTitle:@"Connect" forState:UIControlStateNormal];
+
+    }
+    else{
+        //Not connected, lets connect!
+        
+        //Upon Success, Change the button title to "Disconnect"
+        [self.connectOutlet setTitle:@"Disconnect" forState:UIControlStateNormal];
+    }
+    
+    
+}
+
+
+
+
 
 
 - (void)didReceiveMemoryWarning
 {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (IBAction)connectAction:(id)sender {
 }
 @end

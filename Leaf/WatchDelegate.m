@@ -8,6 +8,38 @@
 
 #import "WatchDelegate.h"
 
+@interface WatchDelegate(){
+     PBWatch *connectedWatch;
+}
+@end
+
 @implementation WatchDelegate
+
+
+
+-(void)connectToWatch:(BOOL)connect{
+    if (connect) {
+        //Connect
+        connectedWatch = [[PBPebbleCentral defaultCentral] lastConnectedWatch];
+    }
+    else{
+        [connectedWatch closeSession:nil];
+    }
+    
+}
+
+
+- (void)pebbleCentral:(PBPebbleCentral*)central watchDidConnect:(PBWatch*)watch isNew:(BOOL)isNew {
+    NSLog(@"Pebble connected: %@", [watch name]);
+    connectedWatch = watch;
+}
+
+- (void)pebbleCentral:(PBPebbleCentral*)central watchDidDisconnect:(PBWatch*)watch {
+    NSLog(@"Pebble disconnected: %@", [watch name]);
+    
+    if (connectedWatch == watch || [watch isEqual:connectedWatch]) {
+        connectedWatch = nil;
+    }
+}
 
 @end

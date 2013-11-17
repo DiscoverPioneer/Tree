@@ -7,8 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "WatchDelegate.h"
 @interface FirstViewController : UIViewController
 
 - (IBAction)connectAction:(id)sender;
+@property (strong, nonatomic) IBOutlet UIButton *connectOutlet;
+@property (strong, nonatomic) WatchDelegate *watchDelegate;
 @end

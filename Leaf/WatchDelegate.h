@@ -10,4 +10,10 @@
 #import <PebbleKit/PebbleKit.h>
 @interface WatchDelegate : NSObject
 
+
+
+-(void)connectToWatch:(BOOL)connect;
+
+
+
 @end
