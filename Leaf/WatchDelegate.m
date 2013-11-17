@@ -22,7 +22,7 @@
     if (self) {
         [[PBPebbleCentral defaultCentral] setDelegate:self];
         uuid_t myAppUUIDbytes;
-        NSUUID *myAppUUID = [[NSUUID alloc] initWithUUIDString:@"226834ae-786e-4302-a52f-6e7efc9f990b"];
+        NSUUID *myAppUUID = [[NSUUID alloc] initWithUUIDString:@"39b9d7d5-87b1-4950-a41e-1219fc1bfdf4"];
         [myAppUUID getUUIDBytes:myAppUUIDbytes];
         
         [[PBPebbleCentral defaultCentral] setAppUUID:[NSData dataWithBytes:myAppUUIDbytes length:16]];
