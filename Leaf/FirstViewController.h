@@ -14,5 +14,7 @@
 @property (strong, nonatomic) IBOutlet UIButton *connectOutlet;
 @property (strong, nonatomic) WatchDelegate *watchDelegate;
 @property BOOL connected;
+- (IBAction)contactsAction:(id)sender;
+- (IBAction)settingsAction:(id)sender;
 
 @end

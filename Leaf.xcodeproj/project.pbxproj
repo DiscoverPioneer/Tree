@@ -28,6 +28,15 @@
 		09D6BA07183928F900FC45E5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D6BA06183928F900FC45E5 /* CoreMotion.framework */; };
 		09D6BA091839290300FC45E5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D6BA081839290300FC45E5 /* CFNetwork.framework */; };
 		09D6BA0B1839290D00FC45E5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D6BA0A1839290D00FC45E5 /* MessageUI.framework */; };
+		09D6BA131839476300FC45E5 /* ContactsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D6BA111839476300FC45E5 /* ContactsViewController.m */; };
+		09D6BA141839476300FC45E5 /* ContactsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09D6BA121839476300FC45E5 /* ContactsViewController.xib */; };
+		09D6BA181839490C00FC45E5 /* EventsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D6BA161839490C00FC45E5 /* EventsViewController.m */; };
+		09D6BA191839490C00FC45E5 /* EventsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09D6BA171839490C00FC45E5 /* EventsViewController.xib */; };
+		09D6BA1C18394A8A00FC45E5 /* ContactModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 09D6BA1A18394A8A00FC45E5 /* ContactModel.xcdatamodeld */; };
+		09D6BA1F18394B0D00FC45E5 /* Contact.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D6BA1E18394B0D00FC45E5 /* Contact.m */; };
+		09D6BA2118394BD200FC45E5 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D6BA2018394BD200FC45E5 /* CoreData.framework */; };
+		09D6BA25183953B200FC45E5 /* PersonViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D6BA23183953B200FC45E5 /* PersonViewController.m */; };
+		09D6BA26183953B200FC45E5 /* PersonViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09D6BA24183953B200FC45E5 /* PersonViewController.xib */; };
 		93296DD6183936CC00CE2FD4 /* PebbleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93296DD4183936CC00CE2FD4 /* PebbleKit.framework */; };
 		93296DD7183936CC00CE2FD4 /* PebbleVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93296DD5183936CC00CE2FD4 /* PebbleVendor.framework */; };
 /* End PBXBuildFile section */
@@ -70,6 +79,19 @@
 		09D6BA06183928F900FC45E5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		09D6BA081839290300FC45E5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		09D6BA0A1839290D00FC45E5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		09D6BA101839476300FC45E5 /* ContactsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ContactsViewController.h; sourceTree = "<group>"; };
+		09D6BA111839476300FC45E5 /* ContactsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ContactsViewController.m; sourceTree = "<group>"; };
+		09D6BA121839476300FC45E5 /* ContactsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ContactsViewController.xib; sourceTree = "<group>"; };
+		09D6BA151839490C00FC45E5 /* EventsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventsViewController.h; sourceTree = "<group>"; };
+		09D6BA161839490C00FC45E5 /* EventsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventsViewController.m; sourceTree = "<group>"; };
+		09D6BA171839490C00FC45E5 /* EventsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = EventsViewController.xib; sourceTree = "<group>"; };
+		09D6BA1B18394A8A00FC45E5 /* ContactModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ContactModel.xcdatamodel; sourceTree = "<group>"; };
+		09D6BA1D18394B0D00FC45E5 /* Contact.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Contact.h; sourceTree = "<group>"; };
+		09D6BA1E18394B0D00FC45E5 /* Contact.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Contact.m; sourceTree = "<group>"; };
+		09D6BA2018394BD200FC45E5 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		09D6BA22183953B200FC45E5 /* PersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
+		09D6BA23183953B200FC45E5 /* PersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
+		09D6BA24183953B200FC45E5 /* PersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonViewController.xib; sourceTree = "<group>"; };
 		93296DD4183936CC00CE2FD4 /* PebbleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleKit.framework; path = "../../../../pebble-dev/PebbleSDK-2.0-BETA2/PebbleKit-iOS/PebbleKit.framework"; sourceTree = "<group>"; };
 		93296DD5183936CC00CE2FD4 /* PebbleVendor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleVendor.framework; path = "../../../../pebble-dev/PebbleSDK-2.0-BETA2/PebbleKit-iOS/PebbleVendor.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -79,6 +101,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09D6BA2118394BD200FC45E5 /* CoreData.framework in Frameworks */,
 				93296DD6183936CC00CE2FD4 /* PebbleKit.framework in Frameworks */,
 				93296DD7183936CC00CE2FD4 /* PebbleVendor.framework in Frameworks */,
 				09D6BA0B1839290D00FC45E5 /* MessageUI.framework in Frameworks */,
@@ -128,6 +151,7 @@
 		09D6B976183922D400FC45E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				09D6BA2018394BD200FC45E5 /* CoreData.framework */,
 				93296DD4183936CC00CE2FD4 /* PebbleKit.framework */,
 				93296DD5183936CC00CE2FD4 /* PebbleVendor.framework */,
 				09D6BA0A1839290D00FC45E5 /* MessageUI.framework */,
@@ -152,8 +176,18 @@
 				09D6B9A61839230D00FC45E5 /* FirstViewController.h */,
 				09D6B9A71839230D00FC45E5 /* FirstViewController.m */,
 				09D6B9A81839230D00FC45E5 /* FirstViewController.xib */,
+				09D6BA101839476300FC45E5 /* ContactsViewController.h */,
+				09D6BA111839476300FC45E5 /* ContactsViewController.m */,
+				09D6BA121839476300FC45E5 /* ContactsViewController.xib */,
+				09D6BA151839490C00FC45E5 /* EventsViewController.h */,
+				09D6BA161839490C00FC45E5 /* EventsViewController.m */,
+				09D6BA171839490C00FC45E5 /* EventsViewController.xib */,
+				09D6BA22183953B200FC45E5 /* PersonViewController.h */,
+				09D6BA23183953B200FC45E5 /* PersonViewController.m */,
+				09D6BA24183953B200FC45E5 /* PersonViewController.xib */,
 				09D6B9AB183927DE00FC45E5 /* WatchDelegate.h */,
 				09D6B9AC183927DE00FC45E5 /* WatchDelegate.m */,
+				09D6BA271839636600FC45E5 /* CoreData */,
 				09D6B989183922D400FC45E5 /* Images.xcassets */,
 				09D6B97E183922D400FC45E5 /* Supporting Files */,
 			);
@@ -187,6 +221,16 @@
 				09D6B999183922D400FC45E5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		09D6BA271839636600FC45E5 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				09D6BA1A18394A8A00FC45E5 /* ContactModel.xcdatamodeld */,
+				09D6BA1D18394B0D00FC45E5 /* Contact.h */,
+				09D6BA1E18394B0D00FC45E5 /* Contact.m */,
+			);
+			name = CoreData;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -265,6 +309,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				09D6B982183922D400FC45E5 /* InfoPlist.strings in Resources */,
+				09D6BA191839490C00FC45E5 /* EventsViewController.xib in Resources */,
+				09D6BA141839476300FC45E5 /* ContactsViewController.xib in Resources */,
+				09D6BA26183953B200FC45E5 /* PersonViewController.xib in Resources */,
 				09D6B9AA1839230D00FC45E5 /* FirstViewController.xib in Resources */,
 				09D6B98A183922D400FC45E5 /* Images.xcassets in Resources */,
 			);
@@ -285,10 +332,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				09D6BA1F18394B0D00FC45E5 /* Contact.m in Sources */,
 				09D6B9AD183927DE00FC45E5 /* WatchDelegate.m in Sources */,
+				09D6BA181839490C00FC45E5 /* EventsViewController.m in Sources */,
 				09D6B988183922D400FC45E5 /* AppDelegate.m in Sources */,
+				09D6BA131839476300FC45E5 /* ContactsViewController.m in Sources */,
+				09D6BA25183953B200FC45E5 /* PersonViewController.m in Sources */,
 				09D6B9A91839230D00FC45E5 /* FirstViewController.m in Sources */,
 				09D6B984183922D400FC45E5 /* main.m in Sources */,
+				09D6BA1C18394A8A00FC45E5 /* ContactModel.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -523,6 +575,19 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		09D6BA1A18394A8A00FC45E5 /* ContactModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				09D6BA1B18394A8A00FC45E5 /* ContactModel.xcdatamodel */,
+			);
+			currentVersion = 09D6BA1B18394A8A00FC45E5 /* ContactModel.xcdatamodel */;
+			path = ContactModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
 	};
 	rootObject = 09D6B96C183922D400FC45E5 /* Project object */;
 }
