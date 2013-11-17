@@ -30,11 +30,21 @@
     return self;
 }
 
+-(void)watchDidOpenSession:(PBWatch *)watch{
+    NSLog(@"watch did open session");
+}
+
+-(void)watch:(PBWatch *)watch handleError:(NSError *)error{
+    NSLog(@"got error");
+}
+
 -(void)connectToWatch:(BOOL)connect{
     
     if (connect) {
         //Connect
         connectedWatch = [[PBPebbleCentral defaultCentral] lastConnectedWatch];
+        [connectedWatch setDelegate:self];
+        NSLog(@"connected watch serial: %@", [connectedWatch serialNumber]);
     }
     else{
         [connectedWatch closeSession:nil];
@@ -49,7 +59,6 @@
     appDelegate= (AppDelegate *)[[UIApplication sharedApplication] delegate];
     appDelegate.FVC.connected=YES;
     [appDelegate.FVC.connectOutlet setTitle:@"Disconnect" forState:UIControlStateNormal];
-
 }
 
 - (void)pebbleCentral:(PBPebbleCentral*)central watchDidDisconnect:(PBWatch*)watch {
