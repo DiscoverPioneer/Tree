@@ -34,22 +34,22 @@
 }
 
 
-
-
 - (IBAction)connectAction:(id)sender {
     //Check if connected to Pebble
     if(connected){
         //Already connected, we need to disconect
-        
+        [self.watchDelegate connectToWatch:NO];
         //Upon Success, Change the button title to "Connect"
         [self.connectOutlet setTitle:@"Connect" forState:UIControlStateNormal];
+        connected=false;
 
     }
     else{
         //Not connected, lets connect!
-        
+        [self.watchDelegate connectToWatch:YES];
         //Upon Success, Change the button title to "Disconnect"
         [self.connectOutlet setTitle:@"Disconnect" forState:UIControlStateNormal];
+        connected=true;
     }
     
     
