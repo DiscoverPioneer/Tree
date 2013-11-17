@@ -22,34 +22,14 @@
 		09D6B9A91839230D00FC45E5 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D6B9A71839230D00FC45E5 /* FirstViewController.m */; };
 		09D6B9AA1839230D00FC45E5 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 09D6B9A81839230D00FC45E5 /* FirstViewController.xib */; };
 		09D6B9AD183927DE00FC45E5 /* WatchDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D6B9AC183927DE00FC45E5 /* WatchDelegate.m */; };
-		09D6B9E31839289200FC45E5 /* PebbleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D6B9AF1839289200FC45E5 /* PebbleKit.framework */; };
-		09D6B9E41839289200FC45E5 /* build_framework.sh in Resources */ = {isa = PBXBuildFile; fileRef = 09D6B9B11839289200FC45E5 /* build_framework.sh */; };
-		09D6B9E51839289200FC45E5 /* CHMultiDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D6B9B41839289200FC45E5 /* CHMultiDictionary.m */; };
-		09D6B9E61839289200FC45E5 /* CHMutableDictionary.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D6B9B61839289200FC45E5 /* CHMutableDictionary.m */; };
-		09D6B9E71839289200FC45E5 /* EAAccessoryFramework+OCMock.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D6B9B81839289200FC45E5 /* EAAccessoryFramework+OCMock.m */; };
-		09D6B9E81839289200FC45E5 /* CompressingLogFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D6B9BB1839289200FC45E5 /* CompressingLogFileManager.m */; };
-		09D6B9E91839289200FC45E5 /* DDASLLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D6B9BD1839289200FC45E5 /* DDASLLogger.m */; };
-		09D6B9EA1839289200FC45E5 /* DDFileLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D6B9BF1839289200FC45E5 /* DDFileLogger.m */; };
-		09D6B9EB1839289200FC45E5 /* DDLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D6B9C11839289200FC45E5 /* DDLog.m */; };
-		09D6B9EC1839289200FC45E5 /* DDTTYLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D6B9C31839289200FC45E5 /* DDTTYLogger.m */; };
-		09D6B9ED1839289200FC45E5 /* NSJSONSerialization+PBJSONHelpers.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D6B9C51839289200FC45E5 /* NSJSONSerialization+PBJSONHelpers.m */; };
-		09D6B9EE1839289200FC45E5 /* NSString+HexData.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D6B9C71839289200FC45E5 /* NSString+HexData.m */; };
-		09D6B9EF1839289200FC45E5 /* NSURLConnectionVCR.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D6B9CA1839289200FC45E5 /* NSURLConnectionVCR.m */; };
-		09D6B9F01839289200FC45E5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 09D6B9CB1839289200FC45E5 /* README.md */; };
-		09D6B9F11839289200FC45E5 /* libOCMock.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D6B9CD1839289200FC45E5 /* libOCMock.a */; };
-		09D6B9F21839289200FC45E5 /* PBVendorLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D6B9D51839289200FC45E5 /* PBVendorLog.m */; };
-		09D6B9F31839289200FC45E5 /* prepare_framework.sh in Resources */ = {isa = PBXBuildFile; fileRef = 09D6B9DB1839289200FC45E5 /* prepare_framework.sh */; };
-		09D6B9F41839289200FC45E5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 09D6B9DC1839289200FC45E5 /* README.md */; };
-		09D6B9F51839289200FC45E5 /* UIDevice-Hardware.m in Sources */ = {isa = PBXBuildFile; fileRef = 09D6B9DF1839289200FC45E5 /* UIDevice-Hardware.m */; };
-		09D6B9F61839289200FC45E5 /* PebbleVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D6B9E01839289200FC45E5 /* PebbleVendor.framework */; };
-		09D6B9F71839289200FC45E5 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 09D6B9E11839289200FC45E5 /* README.md */; };
-		09D6B9F81839289200FC45E5 /* version.txt in Resources */ = {isa = PBXBuildFile; fileRef = 09D6B9E21839289200FC45E5 /* version.txt */; };
 		09D6BA01183928D900FC45E5 /* ExternalAccessory.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D6BA00183928D900FC45E5 /* ExternalAccessory.framework */; };
 		09D6BA03183928E300FC45E5 /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D6BA02183928E300FC45E5 /* libz.dylib */; };
 		09D6BA05183928EE00FC45E5 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D6BA04183928EE00FC45E5 /* CoreBluetooth.framework */; };
 		09D6BA07183928F900FC45E5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D6BA06183928F900FC45E5 /* CoreMotion.framework */; };
 		09D6BA091839290300FC45E5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D6BA081839290300FC45E5 /* CFNetwork.framework */; };
 		09D6BA0B1839290D00FC45E5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D6BA0A1839290D00FC45E5 /* MessageUI.framework */; };
+		09D6BA0D18392B2700FC45E5 /* PebbleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D6BA0C18392B2700FC45E5 /* PebbleKit.framework */; };
+		09D6BA0F18392B3400FC45E5 /* PebbleVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D6BA0E18392B3400FC45E5 /* PebbleVendor.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,20 +39,6 @@
 			proxyType = 1;
 			remoteGlobalIDString = 09D6B973183922D400FC45E5;
 			remoteInfo = Leaf;
-		};
-		09D6B9FC1839289200FC45E5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 09D6B9D81839289200FC45E5 /* PebbleVendor.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 10418C7A1642D5E600066DE0;
-			remoteInfo = PebbleVendor;
-		};
-		09D6B9FE1839289200FC45E5 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 09D6B9D81839289200FC45E5 /* PebbleVendor.xcodeproj */;
-			proxyType = 2;
-			remoteGlobalIDString = 10418D861642E8B600066DE0;
-			remoteInfo = PebbleTesting;
 		};
 /* End PBXContainerItemProxy section */
 
@@ -98,56 +64,14 @@
 		09D6B9A81839230D00FC45E5 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
 		09D6B9AB183927DE00FC45E5 /* WatchDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WatchDelegate.h; sourceTree = "<group>"; };
 		09D6B9AC183927DE00FC45E5 /* WatchDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WatchDelegate.m; sourceTree = "<group>"; };
-		09D6B9AF1839289200FC45E5 /* PebbleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PebbleKit.framework; sourceTree = "<group>"; };
-		09D6B9B11839289200FC45E5 /* build_framework.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = build_framework.sh; sourceTree = "<group>"; };
-		09D6B9B31839289200FC45E5 /* CHMultiDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMultiDictionary.h; sourceTree = "<group>"; };
-		09D6B9B41839289200FC45E5 /* CHMultiDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHMultiDictionary.m; sourceTree = "<group>"; };
-		09D6B9B51839289200FC45E5 /* CHMutableDictionary.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CHMutableDictionary.h; sourceTree = "<group>"; };
-		09D6B9B61839289200FC45E5 /* CHMutableDictionary.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CHMutableDictionary.m; sourceTree = "<group>"; };
-		09D6B9B71839289200FC45E5 /* EAAccessoryFramework+OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "EAAccessoryFramework+OCMock.h"; sourceTree = "<group>"; };
-		09D6B9B81839289200FC45E5 /* EAAccessoryFramework+OCMock.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "EAAccessoryFramework+OCMock.m"; sourceTree = "<group>"; };
-		09D6B9BA1839289200FC45E5 /* CompressingLogFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CompressingLogFileManager.h; sourceTree = "<group>"; };
-		09D6B9BB1839289200FC45E5 /* CompressingLogFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CompressingLogFileManager.m; sourceTree = "<group>"; };
-		09D6B9BC1839289200FC45E5 /* DDASLLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDASLLogger.h; sourceTree = "<group>"; };
-		09D6B9BD1839289200FC45E5 /* DDASLLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDASLLogger.m; sourceTree = "<group>"; };
-		09D6B9BE1839289200FC45E5 /* DDFileLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDFileLogger.h; sourceTree = "<group>"; };
-		09D6B9BF1839289200FC45E5 /* DDFileLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDFileLogger.m; sourceTree = "<group>"; };
-		09D6B9C01839289200FC45E5 /* DDLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDLog.h; sourceTree = "<group>"; };
-		09D6B9C11839289200FC45E5 /* DDLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDLog.m; sourceTree = "<group>"; };
-		09D6B9C21839289200FC45E5 /* DDTTYLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DDTTYLogger.h; sourceTree = "<group>"; };
-		09D6B9C31839289200FC45E5 /* DDTTYLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DDTTYLogger.m; sourceTree = "<group>"; };
-		09D6B9C41839289200FC45E5 /* NSJSONSerialization+PBJSONHelpers.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSJSONSerialization+PBJSONHelpers.h"; sourceTree = "<group>"; };
-		09D6B9C51839289200FC45E5 /* NSJSONSerialization+PBJSONHelpers.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSJSONSerialization+PBJSONHelpers.m"; sourceTree = "<group>"; };
-		09D6B9C61839289200FC45E5 /* NSString+HexData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+HexData.h"; sourceTree = "<group>"; };
-		09D6B9C71839289200FC45E5 /* NSString+HexData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+HexData.m"; sourceTree = "<group>"; };
-		09D6B9C91839289200FC45E5 /* NSURLConnectionVCR.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSURLConnectionVCR.h; sourceTree = "<group>"; };
-		09D6B9CA1839289200FC45E5 /* NSURLConnectionVCR.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSURLConnectionVCR.m; sourceTree = "<group>"; };
-		09D6B9CB1839289200FC45E5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		09D6B9CD1839289200FC45E5 /* libOCMock.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libOCMock.a; sourceTree = "<group>"; };
-		09D6B9CE1839289200FC45E5 /* NSNotificationCenter+OCMAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+OCMAdditions.h"; sourceTree = "<group>"; };
-		09D6B9CF1839289200FC45E5 /* OCMArg.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMArg.h; sourceTree = "<group>"; };
-		09D6B9D01839289200FC45E5 /* OCMConstraint.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMConstraint.h; sourceTree = "<group>"; };
-		09D6B9D11839289200FC45E5 /* OCMock.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMock.h; sourceTree = "<group>"; };
-		09D6B9D21839289200FC45E5 /* OCMockObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockObject.h; sourceTree = "<group>"; };
-		09D6B9D31839289200FC45E5 /* OCMockRecorder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OCMockRecorder.h; sourceTree = "<group>"; };
-		09D6B9D41839289200FC45E5 /* PBVendorLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PBVendorLog.h; sourceTree = "<group>"; };
-		09D6B9D51839289200FC45E5 /* PBVendorLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PBVendorLog.m; sourceTree = "<group>"; };
-		09D6B9D61839289200FC45E5 /* PebbleOCMock-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PebbleOCMock-Prefix.pch"; sourceTree = "<group>"; };
-		09D6B9D71839289200FC45E5 /* PebbleVendor-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PebbleVendor-Prefix.pch"; sourceTree = "<group>"; };
-		09D6B9D81839289200FC45E5 /* PebbleVendor.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; path = PebbleVendor.xcodeproj; sourceTree = "<group>"; };
-		09D6B9DB1839289200FC45E5 /* prepare_framework.sh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.script.sh; path = prepare_framework.sh; sourceTree = "<group>"; };
-		09D6B9DC1839289200FC45E5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		09D6B9DE1839289200FC45E5 /* UIDevice-Hardware.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice-Hardware.h"; sourceTree = "<group>"; };
-		09D6B9DF1839289200FC45E5 /* UIDevice-Hardware.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice-Hardware.m"; sourceTree = "<group>"; };
-		09D6B9E01839289200FC45E5 /* PebbleVendor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PebbleVendor.framework; sourceTree = "<group>"; };
-		09D6B9E11839289200FC45E5 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
-		09D6B9E21839289200FC45E5 /* version.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = version.txt; sourceTree = "<group>"; };
 		09D6BA00183928D900FC45E5 /* ExternalAccessory.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ExternalAccessory.framework; path = System/Library/Frameworks/ExternalAccessory.framework; sourceTree = SDKROOT; };
 		09D6BA02183928E300FC45E5 /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
 		09D6BA04183928EE00FC45E5 /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = System/Library/Frameworks/CoreBluetooth.framework; sourceTree = SDKROOT; };
 		09D6BA06183928F900FC45E5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		09D6BA081839290300FC45E5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		09D6BA0A1839290D00FC45E5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
+		09D6BA0C18392B2700FC45E5 /* PebbleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PebbleKit.framework; sourceTree = "<group>"; };
+		09D6BA0E18392B3400FC45E5 /* PebbleVendor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PebbleVendor.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -158,15 +82,14 @@
 				09D6BA0B1839290D00FC45E5 /* MessageUI.framework in Frameworks */,
 				09D6BA091839290300FC45E5 /* CFNetwork.framework in Frameworks */,
 				09D6BA07183928F900FC45E5 /* CoreMotion.framework in Frameworks */,
+				09D6BA0D18392B2700FC45E5 /* PebbleKit.framework in Frameworks */,
 				09D6BA05183928EE00FC45E5 /* CoreBluetooth.framework in Frameworks */,
 				09D6BA03183928E300FC45E5 /* libz.dylib in Frameworks */,
 				09D6BA01183928D900FC45E5 /* ExternalAccessory.framework in Frameworks */,
-				09D6B9F61839289200FC45E5 /* PebbleVendor.framework in Frameworks */,
+				09D6BA0F18392B3400FC45E5 /* PebbleVendor.framework in Frameworks */,
 				09D6B97A183922D400FC45E5 /* CoreGraphics.framework in Frameworks */,
-				09D6B9E31839289200FC45E5 /* PebbleKit.framework in Frameworks */,
 				09D6B97C183922D400FC45E5 /* UIKit.framework in Frameworks */,
 				09D6B978183922D400FC45E5 /* Foundation.framework in Frameworks */,
-				09D6B9F11839289200FC45E5 /* libOCMock.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -205,6 +128,8 @@
 		09D6B976183922D400FC45E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				09D6BA0E18392B3400FC45E5 /* PebbleVendor.framework */,
+				09D6BA0C18392B2700FC45E5 /* PebbleKit.framework */,
 				09D6BA0A1839290D00FC45E5 /* MessageUI.framework */,
 				09D6BA081839290300FC45E5 /* CFNetwork.framework */,
 				09D6BA06183928F900FC45E5 /* CoreMotion.framework */,
@@ -238,7 +163,6 @@
 		09D6B97E183922D400FC45E5 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				09D6B9AE1839289200FC45E5 /* PebbleKit-iOS */,
 				09D6B97F183922D400FC45E5 /* Leaf-Info.plist */,
 				09D6B980183922D400FC45E5 /* InfoPlist.strings */,
 				09D6B983183922D400FC45E5 /* main.m */,
@@ -263,114 +187,6 @@
 				09D6B999183922D400FC45E5 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
-			sourceTree = "<group>";
-		};
-		09D6B9AE1839289200FC45E5 /* PebbleKit-iOS */ = {
-			isa = PBXGroup;
-			children = (
-				09D6B9AF1839289200FC45E5 /* PebbleKit.framework */,
-				09D6B9B01839289200FC45E5 /* PebbleVendor */,
-				09D6B9E01839289200FC45E5 /* PebbleVendor.framework */,
-				09D6B9E11839289200FC45E5 /* README.md */,
-				09D6B9E21839289200FC45E5 /* version.txt */,
-			);
-			path = "PebbleKit-iOS";
-			sourceTree = "<group>";
-		};
-		09D6B9B01839289200FC45E5 /* PebbleVendor */ = {
-			isa = PBXGroup;
-			children = (
-				09D6B9B11839289200FC45E5 /* build_framework.sh */,
-				09D6B9B21839289200FC45E5 /* CHDataStructures */,
-				09D6B9B71839289200FC45E5 /* EAAccessoryFramework+OCMock.h */,
-				09D6B9B81839289200FC45E5 /* EAAccessoryFramework+OCMock.m */,
-				09D6B9B91839289200FC45E5 /* Lumberjack */,
-				09D6B9C41839289200FC45E5 /* NSJSONSerialization+PBJSONHelpers.h */,
-				09D6B9C51839289200FC45E5 /* NSJSONSerialization+PBJSONHelpers.m */,
-				09D6B9C61839289200FC45E5 /* NSString+HexData.h */,
-				09D6B9C71839289200FC45E5 /* NSString+HexData.m */,
-				09D6B9C81839289200FC45E5 /* NSURLConnectionVCR */,
-				09D6B9CC1839289200FC45E5 /* OCMock */,
-				09D6B9D41839289200FC45E5 /* PBVendorLog.h */,
-				09D6B9D51839289200FC45E5 /* PBVendorLog.m */,
-				09D6B9D61839289200FC45E5 /* PebbleOCMock-Prefix.pch */,
-				09D6B9D71839289200FC45E5 /* PebbleVendor-Prefix.pch */,
-				09D6B9D81839289200FC45E5 /* PebbleVendor.xcodeproj */,
-				09D6B9DB1839289200FC45E5 /* prepare_framework.sh */,
-				09D6B9DC1839289200FC45E5 /* README.md */,
-				09D6B9DD1839289200FC45E5 /* UIDevice-Extension */,
-			);
-			path = PebbleVendor;
-			sourceTree = "<group>";
-		};
-		09D6B9B21839289200FC45E5 /* CHDataStructures */ = {
-			isa = PBXGroup;
-			children = (
-				09D6B9B31839289200FC45E5 /* CHMultiDictionary.h */,
-				09D6B9B41839289200FC45E5 /* CHMultiDictionary.m */,
-				09D6B9B51839289200FC45E5 /* CHMutableDictionary.h */,
-				09D6B9B61839289200FC45E5 /* CHMutableDictionary.m */,
-			);
-			path = CHDataStructures;
-			sourceTree = "<group>";
-		};
-		09D6B9B91839289200FC45E5 /* Lumberjack */ = {
-			isa = PBXGroup;
-			children = (
-				09D6B9BA1839289200FC45E5 /* CompressingLogFileManager.h */,
-				09D6B9BB1839289200FC45E5 /* CompressingLogFileManager.m */,
-				09D6B9BC1839289200FC45E5 /* DDASLLogger.h */,
-				09D6B9BD1839289200FC45E5 /* DDASLLogger.m */,
-				09D6B9BE1839289200FC45E5 /* DDFileLogger.h */,
-				09D6B9BF1839289200FC45E5 /* DDFileLogger.m */,
-				09D6B9C01839289200FC45E5 /* DDLog.h */,
-				09D6B9C11839289200FC45E5 /* DDLog.m */,
-				09D6B9C21839289200FC45E5 /* DDTTYLogger.h */,
-				09D6B9C31839289200FC45E5 /* DDTTYLogger.m */,
-			);
-			path = Lumberjack;
-			sourceTree = "<group>";
-		};
-		09D6B9C81839289200FC45E5 /* NSURLConnectionVCR */ = {
-			isa = PBXGroup;
-			children = (
-				09D6B9C91839289200FC45E5 /* NSURLConnectionVCR.h */,
-				09D6B9CA1839289200FC45E5 /* NSURLConnectionVCR.m */,
-				09D6B9CB1839289200FC45E5 /* README.md */,
-			);
-			path = NSURLConnectionVCR;
-			sourceTree = "<group>";
-		};
-		09D6B9CC1839289200FC45E5 /* OCMock */ = {
-			isa = PBXGroup;
-			children = (
-				09D6B9CD1839289200FC45E5 /* libOCMock.a */,
-				09D6B9CE1839289200FC45E5 /* NSNotificationCenter+OCMAdditions.h */,
-				09D6B9CF1839289200FC45E5 /* OCMArg.h */,
-				09D6B9D01839289200FC45E5 /* OCMConstraint.h */,
-				09D6B9D11839289200FC45E5 /* OCMock.h */,
-				09D6B9D21839289200FC45E5 /* OCMockObject.h */,
-				09D6B9D31839289200FC45E5 /* OCMockRecorder.h */,
-			);
-			path = OCMock;
-			sourceTree = "<group>";
-		};
-		09D6B9D91839289200FC45E5 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				09D6B9FD1839289200FC45E5 /* libPebbleVendor.a */,
-				09D6B9FF1839289200FC45E5 /* libPebbleTesting.a */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		09D6B9DD1839289200FC45E5 /* UIDevice-Extension */ = {
-			isa = PBXGroup;
-			children = (
-				09D6B9DE1839289200FC45E5 /* UIDevice-Hardware.h */,
-				09D6B9DF1839289200FC45E5 /* UIDevice-Hardware.m */,
-			);
-			path = "UIDevice-Extension";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -435,12 +251,6 @@
 			mainGroup = 09D6B96B183922D400FC45E5;
 			productRefGroup = 09D6B975183922D400FC45E5 /* Products */;
 			projectDirPath = "";
-			projectReferences = (
-				{
-					ProductGroup = 09D6B9D91839289200FC45E5 /* Products */;
-					ProjectRef = 09D6B9D81839289200FC45E5 /* PebbleVendor.xcodeproj */;
-				},
-			);
 			projectRoot = "";
 			targets = (
 				09D6B973183922D400FC45E5 /* Leaf */,
@@ -449,37 +259,14 @@
 		};
 /* End PBXProject section */
 
-/* Begin PBXReferenceProxy section */
-		09D6B9FD1839289200FC45E5 /* libPebbleVendor.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libPebbleVendor.a;
-			remoteRef = 09D6B9FC1839289200FC45E5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-		09D6B9FF1839289200FC45E5 /* libPebbleTesting.a */ = {
-			isa = PBXReferenceProxy;
-			fileType = archive.ar;
-			path = libPebbleTesting.a;
-			remoteRef = 09D6B9FE1839289200FC45E5 /* PBXContainerItemProxy */;
-			sourceTree = BUILT_PRODUCTS_DIR;
-		};
-/* End PBXReferenceProxy section */
-
 /* Begin PBXResourcesBuildPhase section */
 		09D6B972183922D400FC45E5 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09D6B9E41839289200FC45E5 /* build_framework.sh in Resources */,
 				09D6B982183922D400FC45E5 /* InfoPlist.strings in Resources */,
-				09D6B9F01839289200FC45E5 /* README.md in Resources */,
-				09D6B9F81839289200FC45E5 /* version.txt in Resources */,
-				09D6B9F41839289200FC45E5 /* README.md in Resources */,
 				09D6B9AA1839230D00FC45E5 /* FirstViewController.xib in Resources */,
 				09D6B98A183922D400FC45E5 /* Images.xcassets in Resources */,
-				09D6B9F71839289200FC45E5 /* README.md in Resources */,
-				09D6B9F31839289200FC45E5 /* prepare_framework.sh in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -498,23 +285,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				09D6B9E71839289200FC45E5 /* EAAccessoryFramework+OCMock.m in Sources */,
 				09D6B9AD183927DE00FC45E5 /* WatchDelegate.m in Sources */,
 				09D6B988183922D400FC45E5 /* AppDelegate.m in Sources */,
-				09D6B9ED1839289200FC45E5 /* NSJSONSerialization+PBJSONHelpers.m in Sources */,
 				09D6B9A91839230D00FC45E5 /* FirstViewController.m in Sources */,
 				09D6B984183922D400FC45E5 /* main.m in Sources */,
-				09D6B9EB1839289200FC45E5 /* DDLog.m in Sources */,
-				09D6B9F51839289200FC45E5 /* UIDevice-Hardware.m in Sources */,
-				09D6B9E91839289200FC45E5 /* DDASLLogger.m in Sources */,
-				09D6B9E81839289200FC45E5 /* CompressingLogFileManager.m in Sources */,
-				09D6B9E51839289200FC45E5 /* CHMultiDictionary.m in Sources */,
-				09D6B9F21839289200FC45E5 /* PBVendorLog.m in Sources */,
-				09D6B9EC1839289200FC45E5 /* DDTTYLogger.m in Sources */,
-				09D6B9E61839289200FC45E5 /* CHMutableDictionary.m in Sources */,
-				09D6B9EA1839289200FC45E5 /* DDFileLogger.m in Sources */,
-				09D6B9EF1839289200FC45E5 /* NSURLConnectionVCR.m in Sources */,
-				09D6B9EE1839289200FC45E5 /* NSString+HexData.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -636,6 +410,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Developer/Leaf/Leaf/PebbleKit-iOS",
+					/Developer/Leaf,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Leaf/Leaf-Prefix.pch";
@@ -658,6 +433,7 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"/Developer/Leaf/Leaf/PebbleKit-iOS",
+					/Developer/Leaf,
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Leaf/Leaf-Prefix.pch";

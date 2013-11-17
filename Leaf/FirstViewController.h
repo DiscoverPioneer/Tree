@@ -10,4 +10,5 @@
 
 @interface FirstViewController : UIViewController
 
+- (IBAction)connectAction:(id)sender;
 @end
