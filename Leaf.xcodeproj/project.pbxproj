@@ -28,8 +28,8 @@
 		09D6BA07183928F900FC45E5 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D6BA06183928F900FC45E5 /* CoreMotion.framework */; };
 		09D6BA091839290300FC45E5 /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D6BA081839290300FC45E5 /* CFNetwork.framework */; };
 		09D6BA0B1839290D00FC45E5 /* MessageUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D6BA0A1839290D00FC45E5 /* MessageUI.framework */; };
-		09D6BA0D18392B2700FC45E5 /* PebbleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D6BA0C18392B2700FC45E5 /* PebbleKit.framework */; };
-		09D6BA0F18392B3400FC45E5 /* PebbleVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09D6BA0E18392B3400FC45E5 /* PebbleVendor.framework */; };
+		93296DD6183936CC00CE2FD4 /* PebbleKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93296DD4183936CC00CE2FD4 /* PebbleKit.framework */; };
+		93296DD7183936CC00CE2FD4 /* PebbleVendor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 93296DD5183936CC00CE2FD4 /* PebbleVendor.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,8 +70,8 @@
 		09D6BA06183928F900FC45E5 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		09D6BA081839290300FC45E5 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
 		09D6BA0A1839290D00FC45E5 /* MessageUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MessageUI.framework; path = System/Library/Frameworks/MessageUI.framework; sourceTree = SDKROOT; };
-		09D6BA0C18392B2700FC45E5 /* PebbleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PebbleKit.framework; sourceTree = "<group>"; };
-		09D6BA0E18392B3400FC45E5 /* PebbleVendor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = PebbleVendor.framework; sourceTree = "<group>"; };
+		93296DD4183936CC00CE2FD4 /* PebbleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleKit.framework; path = "../../../../pebble-dev/PebbleSDK-2.0-BETA2/PebbleKit-iOS/PebbleKit.framework"; sourceTree = "<group>"; };
+		93296DD5183936CC00CE2FD4 /* PebbleVendor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleVendor.framework; path = "../../../../pebble-dev/PebbleSDK-2.0-BETA2/PebbleKit-iOS/PebbleVendor.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,14 +79,14 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				93296DD6183936CC00CE2FD4 /* PebbleKit.framework in Frameworks */,
+				93296DD7183936CC00CE2FD4 /* PebbleVendor.framework in Frameworks */,
 				09D6BA0B1839290D00FC45E5 /* MessageUI.framework in Frameworks */,
 				09D6BA091839290300FC45E5 /* CFNetwork.framework in Frameworks */,
 				09D6BA07183928F900FC45E5 /* CoreMotion.framework in Frameworks */,
-				09D6BA0D18392B2700FC45E5 /* PebbleKit.framework in Frameworks */,
 				09D6BA05183928EE00FC45E5 /* CoreBluetooth.framework in Frameworks */,
 				09D6BA03183928E300FC45E5 /* libz.dylib in Frameworks */,
 				09D6BA01183928D900FC45E5 /* ExternalAccessory.framework in Frameworks */,
-				09D6BA0F18392B3400FC45E5 /* PebbleVendor.framework in Frameworks */,
 				09D6B97A183922D400FC45E5 /* CoreGraphics.framework in Frameworks */,
 				09D6B97C183922D400FC45E5 /* UIKit.framework in Frameworks */,
 				09D6B978183922D400FC45E5 /* Foundation.framework in Frameworks */,
@@ -128,8 +128,8 @@
 		09D6B976183922D400FC45E5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				09D6BA0E18392B3400FC45E5 /* PebbleVendor.framework */,
-				09D6BA0C18392B2700FC45E5 /* PebbleKit.framework */,
+				93296DD4183936CC00CE2FD4 /* PebbleKit.framework */,
+				93296DD5183936CC00CE2FD4 /* PebbleVendor.framework */,
 				09D6BA0A1839290D00FC45E5 /* MessageUI.framework */,
 				09D6BA081839290300FC45E5 /* CFNetwork.framework */,
 				09D6BA06183928F900FC45E5 /* CoreMotion.framework */,
@@ -411,6 +411,7 @@
 					"$(inherited)",
 					"/Developer/Leaf/Leaf/PebbleKit-iOS",
 					/Developer/Leaf,
+					"/Users/erikrisinger/pebble-dev/PebbleSDK-2.0-BETA2/PebbleKit-iOS",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Leaf/Leaf-Prefix.pch";
@@ -434,6 +435,7 @@
 					"$(inherited)",
 					"/Developer/Leaf/Leaf/PebbleKit-iOS",
 					/Developer/Leaf,
+					"/Users/erikrisinger/pebble-dev/PebbleSDK-2.0-BETA2/PebbleKit-iOS",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Leaf/Leaf-Prefix.pch";
@@ -509,6 +511,7 @@
 				09D6B9A2183922D400FC45E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		09D6B9A3183922D400FC45E5 /* Build configuration list for PBXNativeTarget "LeafTests" */ = {
 			isa = XCConfigurationList;
@@ -517,6 +520,7 @@
 				09D6B9A5183922D400FC45E5 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
