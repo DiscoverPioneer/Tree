@@ -14,4 +14,5 @@
 -(void)watchDidOpenSession:(PBWatch *)watch;
 -(void)watch:(PBWatch *)watch handleError:(NSError *)error;
 
+@property(strong,nonatomic)UIButton *button;
 @end

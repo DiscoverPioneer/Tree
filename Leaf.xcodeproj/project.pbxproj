@@ -92,8 +92,8 @@
 		09D6BA22183953B200FC45E5 /* PersonViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PersonViewController.h; sourceTree = "<group>"; };
 		09D6BA23183953B200FC45E5 /* PersonViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PersonViewController.m; sourceTree = "<group>"; };
 		09D6BA24183953B200FC45E5 /* PersonViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = PersonViewController.xib; sourceTree = "<group>"; };
-		93296DD4183936CC00CE2FD4 /* PebbleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleKit.framework; path = "../../../../pebble-dev/PebbleSDK-2.0-BETA2/PebbleKit-iOS/PebbleKit.framework"; sourceTree = "<group>"; };
-		93296DD5183936CC00CE2FD4 /* PebbleVendor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleVendor.framework; path = "../../../../pebble-dev/PebbleSDK-2.0-BETA2/PebbleKit-iOS/PebbleVendor.framework"; sourceTree = "<group>"; };
+		93296DD4183936CC00CE2FD4 /* PebbleKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleKit.framework; path = "../../Users/dplaxer25/pebble-dev/PebbleSDK-2.0-BETA2/PebbleKit-iOS/PebbleKit.framework"; sourceTree = "<group>"; };
+		93296DD5183936CC00CE2FD4 /* PebbleVendor.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = PebbleVendor.framework; path = "../../Users/dplaxer25/pebble-dev/PebbleSDK-2.0-BETA2/PebbleKit-iOS/PebbleVendor.framework"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */

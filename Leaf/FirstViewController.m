@@ -30,21 +30,28 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.watchDelegate = [[WatchDelegate alloc] init];
     self.connected=NO;
 }
 
 
 - (IBAction)connectAction:(id)sender {
+    if (self.watchDelegate==nil) {
+        self.watchDelegate = [[WatchDelegate alloc] init];
+        [self.watchDelegate setButton:self.connectOutlet];
+    }
     //Check if connected to Pebble
-    if(self.connected){
+    if([self.connectOutlet.titleLabel.text isEqualToString:@"Disconnect"]){
         //Already connected, we need to disconect
         [self.watchDelegate connectToWatch:NO];
+        self.watchDelegate=nil;
     }
     else{
         //Not connected, lets connect!
+        NSLog(@"No");
         [self.watchDelegate connectToWatch:YES];
+
     }
+    
     
     
 }

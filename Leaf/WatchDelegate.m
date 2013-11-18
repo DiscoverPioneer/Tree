@@ -21,24 +21,26 @@
 -(id)init{
     self = [super init];
     if (self) {
+//       [[PBPebbleCentral defaultCentral] setDelegate:self];
         pebbleCentral = [PBPebbleCentral defaultCentral];
-//        [[PBPebbleCentral defaultCentral] setDelegate:self];
-        [pebbleCentral setDelegate:self];
         NSArray *connectedWatches = [pebbleCentral connectedWatches];
         NSLog(@"%@", connectedWatches);
         uuid_t myAppUUIDbytes;
         NSUUID *myAppUUID = [[NSUUID alloc] initWithUUIDString:@"39b9d7d5-87b1-4950-a41e-1219fc1bfdf4"];
         [myAppUUID getUUIDBytes:myAppUUIDbytes];
         
-//        [[PBPebbleCentral defaultCentral] setAppUUID:[NSData dataWithBytes:myAppUUIDbytes length:16]];
-
         [pebbleCentral setAppUUID:[NSData dataWithBytes:myAppUUIDbytes length:16]];
+        [pebbleCentral setDelegate:self];
         }
+    
     return self;
 }
 
 -(void)watchDidOpenSession:(PBWatch *)watch{
     NSLog(@"watch did open session");
+    
+    [self.button setTitle:@"Disconnect" forState:UIControlStateNormal];
+    
 }
 
 -(void)watch:(PBWatch *)watch handleError:(NSError *)error{
@@ -46,11 +48,12 @@
 }
 
 -(void)connectToWatch:(BOOL)connect{
-    
+    connectedWatch = [pebbleCentral lastConnectedWatch];
+    [connectedWatch setDelegate:self];
+    pebbleCentral.delegate=self;
     if (connect) {
         //Connect
-        connectedWatch = [pebbleCentral lastConnectedWatch];
-        [connectedWatch setDelegate:self];
+       
 //        NSLog(@"connected watch serial: %@", [connectedWatch serialNumber]);
         
         [connectedWatch appMessagesGetIsSupported:^(PBWatch *watch, BOOL isAppMessagesSupported) {
@@ -62,13 +65,10 @@
             }
         }];
         NSNumber *key = @(0);
-        [connectedWatch appMessagesPushUpdate:[NSDictionary dictionaryWithObject:@"updated" forKey:key] onSent:^(PBWatch *watch, NSDictionary *update, NSError *error){
+        [connectedWatch appMessagesPushUpdate:[NSDictionary dictionaryWithObject:@"Meet Phil!" forKey:key] onSent:^(PBWatch *watch, NSDictionary *update, NSError *error){
             if (!error) {
                 NSLog(@"sent message");
-                appDelegate= (AppDelegate *)[[UIApplication sharedApplication] delegate];
-                appDelegate.FVC.connected=YES;
-                
-                [appDelegate.FVC.connectOutlet setTitle:@"Disconnect" forState:UIControlStateNormal];
+               
             }
             else{
                 NSLog(@"got error %@", error);
@@ -77,13 +77,15 @@
 
     }
     else{
+        //Close the session
         [connectedWatch closeSession:nil];
+        [self.button setTitle:@"Connect" forState:UIControlStateNormal];
     }
 }
 
 
 - (void)pebbleCentral:(PBPebbleCentral*)central watchDidConnect:(PBWatch*)watch isNew:(BOOL)isNew {
-    NSLog(@"Pebble connected: %@", [watch name]);
+    NSLog(@"Pebble connected!: %@", [watch name]);
     connectedWatch = watch;
     appDelegate= (AppDelegate *)[[UIApplication sharedApplication] delegate];
     appDelegate.FVC.connected=YES;
