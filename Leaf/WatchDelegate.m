@@ -54,27 +54,18 @@
     if (connect) {
         //Connect
        
-//        NSLog(@"connected watch serial: %@", [connectedWatch serialNumber]);
+        
         
         [connectedWatch appMessagesGetIsSupported:^(PBWatch *watch, BOOL isAppMessagesSupported) {
             if (isAppMessagesSupported) {
                 NSLog(@"This Pebble supports app message!");
+                [self sendMessage:@"Connected!! Wooh!"];
             }
             else {
                 NSLog(@":( - This Pebble does not support app message!");
             }
         }];
-        NSNumber *key = @(0);
-        [connectedWatch appMessagesPushUpdate:[NSDictionary dictionaryWithObject:@"Meet Phil!" forKey:key] onSent:^(PBWatch *watch, NSDictionary *update, NSError *error){
-            if (!error) {
-                NSLog(@"sent message");
-               
-            }
-            else{
-                NSLog(@"got error %@", error);
-            }
-        }];
-
+        
     }
     else{
         //Close the session
@@ -82,7 +73,20 @@
         [self.button setTitle:@"Connect" forState:UIControlStateNormal];
     }
 }
-
+//This method takes in a string, and will send it to the Pebble Watch
+-(void)sendMessage:(NSString *)string{
+    NSNumber *key = @(0);
+    [connectedWatch appMessagesPushUpdate:[NSDictionary dictionaryWithObject:string forKey:key] onSent:^(PBWatch *watch, NSDictionary *update, NSError *error){
+        if (!error) {
+            NSLog(@"sent message");
+            
+        }
+        else{
+            NSLog(@"got error %@", error);
+        }
+    }];
+    
+}
 
 - (void)pebbleCentral:(PBPebbleCentral*)central watchDidConnect:(PBWatch*)watch isNew:(BOOL)isNew {
     NSLog(@"Pebble connected!: %@", [watch name]);
